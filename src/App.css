@@ -1,0 +1,28 @@
+* {
+  cursor: none;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(31, 213, 223);
+  color: black;
+}
+
+.title {
+  font-size: 10rem;
+}
+
+.cursor {
+  background-color: black;
+  border: 1px solid rgb(4, 3, 3);
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
